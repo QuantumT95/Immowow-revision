@@ -1,0 +1,63 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+html {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+#navfont {
+  color: white;
+  font-size: 230%;
+  font-weight: bolder;
+}
+
+#navbuttons {
+  font-weight: bolder;
+  font-size: 150%;
+  color: white;
+  padding-left: 2em;
+  padding-right: 2em;
+  border-right: 1px solid black;
+}
+
+.navbar.transparent {
+  /* border-width: 0px;
+  -webkit-box-shadow: 0px 0px;
+  box-shadow: 0px 0px;
+  background-color: rgba(0,0,0,0.0);
+  background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop( 0% , rgba(0,0,0,0.00)),color-stop( 100% , rgba(0,0,0,0.00)));
+  background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+  background-image: linear-gradient(180deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%); */
+  background: transparent;
+}
+.jumbotron {
+  margin-bottom: 0px;
+  background-image: url("../img/revision-background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0% 25%;
+  padding-top: 0px;
+  text-shadow: black 0.2em 0.2em 0.2em;
+}
+
+#intro-top-text {
+  text-align: center;
+  color: white;
+  font-weight: bolder;
+  font-size: 550%;
+  letter-spacing: 0.01em;
+}
+
+#intro-bot-text {
+  text-align: center;
+  color: white;
+  font-weight: bolder;
+  font-size: 200%;
+}
+
+footer.footer {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
