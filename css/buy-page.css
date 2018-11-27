@@ -1,0 +1,209 @@
+.search-banner {
+  background-image: url("../img/search-banner.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%
+}
+
+#searchbanner {
+  height: 500px;
+}
+
+#searchtitle {
+  text-align: center;
+  color: white;
+  font-size: 5vw;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  -webkit-font-smoothing: antialiased;
+}
+
+#ccSearchInput {
+  width: 480px;
+  height: 49px;
+  border: 1px solid black;
+  padding-left: 48px;
+  padding-top: 1px;
+  outline: 0;
+}
+
+#ccSearchInput::-webkit-search-cancel-button{
+  position: relative;
+  right: 20px;
+
+  -webkit-appearance: none;
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
+  background: red;
+}
+
+@media (min-width: 744px) {
+  .outer-holder {
+    margin-top: 40px !important;
+    margin-bottom: 40px !important;
+  }
+}
+
+.outer-holder {
+  margin-top: 32px !important;
+  margin-bottom: 32px !important;
+}
+
+@media (min-width: 1128px) {
+  .inner-holder {
+    margin-left: -8px !important;
+    margin-right: -8px !important;
+    padding: 0px !important;
+  }
+}
+
+@media (min-width: 744px) {
+  .inner-holder {
+    padding: 0px 16px !important;
+  }
+}
+
+.inner-holder {
+  margin-left: -24px !important;
+  margin-right: -24px !important;
+  padding: 0px 18px !important;
+}
+
+@media (min-width: 1509px) and (min-width: 1240px) {
+  .outter-house-cards {
+    width: 25% !important;
+  }
+}
+
+.outter-house-cards {
+  display: inline-block !important;
+  vertical-align: top !important;
+  white-space: normal !important;
+}
+
+@media (min-width: 744px) {
+  .inner-house-cards {
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+  }
+}
+
+.inner-house-cards {
+  width: 100% !important;
+  height: 100% !important;
+  padding-top: 8px !important;
+  padding-bottom: 12px !important;
+  padding-left: 6px !important;
+  padding-right: 6px !important;
+}
+
+.house-cards {
+  position: relative !important;
+  color: rgb(72, 72, 72) !important;
+  height: 100% !important;
+  background: rgb(255, 255, 255) !important;
+}
+
+.house-card-images {
+  width: 100% !important;
+  position: relative !important;
+  z-index: 0 !important;
+}
+
+.house-card-text {
+  padding-top: 8px !important;
+}
+
+.housecard-text-box {
+  display: block !important;
+  color: rgb(72, 72, 72) !important;
+  text-decoration: none !important;
+}
+
+.house-card-info {
+  line-height: 22px !important;
+  max-height: 44px !important;
+  text-overflow: ellipsis !important;
+  display: -webkit-box !important;
+  -webkit-line-clamp: 2 !important;
+  -webkit-box-orient: vertical !important;
+  font-size: 19px !important;
+  overflow: hidden !important;
+  overflow-x: hidden !important;
+  overflow-y: hidden !important;
+}
+
+.house-card-info-text {
+  word-wrap: break-word !important;
+  font-size: 16px !important;
+  line-height: 22px !important;
+  letter-spacing: normal !important;
+  color: rgb(72, 72, 72) !important;
+  font-weight: 800 !important;
+  margin: 0px !important;
+}
+
+.outer-inner-house-card-info-text-price-box {
+  float: left !important;
+}
+
+.inner-inner-house-card-info-text-price-box {
+  line-height: normal !important;
+}
+
+.outer-house-card-images {
+  position: relative !important;
+}
+
+.outer-inner-house-card-images {
+  contain: strict !important;
+  position: relative !important;
+  width: 100% !important;
+  z-index: 0 !important;
+  border-bottom-left-radius: 3px !important;
+  border-bottom-right-radius: 3px !important;
+  border-top-left-radius: 3px !important;
+  border-top-right-radius: 3px !important;
+  overflow: hidden !important;
+  overflow-x: hidden !important;
+  overflow-y: hidden !important;
+}
+
+.house-card-image-span {
+  position: absolute !important;
+  display: block !important;
+  border: 0px !important;
+  /* border margin padding + overflow needs to be expanded */
+  margin: -1px !important;
+  padding: 0px !important;
+  height: 1px !important;
+  width: 1px !important;
+  clip: rect(0, 0, 0, 0) !important;
+  overflow: hidden !important;
+}
+
+.house-card-image-layer1 {
+  height: 100% !important;
+  width: 100% !important;
+  overflow: hidden !important;
+}
+
+.house-card-image-layer2 {
+  width: 100% !important;
+  height: 100% !important;
+  white-space: nowrap !important;
+}
+
+.house-card-image-layer3 {
+  display: inline-block !important;
+  height: 100% !important;
+  width: 100% !important;
+  vertical-align: middle !important;
+}
+
+.house-card-image-layer4 {
+  position: relative !important;
+}
