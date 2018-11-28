@@ -1,3 +1,20 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+html {
+  overflow-x: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+#housecardholder {
+  background-color:#fff7e6;
+  margin-top: 0;
+  margin-bottom: 0;
+  height: 100%;
+}
+
 #navbarstyle {
   width: 100%;
   background: rgba(0, 0, 0, 0.7);
@@ -32,7 +49,10 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 100%
+  width: 100%;
+  opacity: 1;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(60%);
 }
 
 #searchbanner {
@@ -243,4 +263,14 @@
   .outter-house-cards {
     display: inline-block;
   }
+}
+
+#actualhousecard {
+  width: 100%;
+  height: 100%;
+}
+
+#houseimage {
+  background-image: url('../img/house1_0.jpg');
+  background-size: contain;
 }
