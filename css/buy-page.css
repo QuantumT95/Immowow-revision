@@ -1,5 +1,6 @@
 body {
   font-family: 'Roboto', sans-serif;
+  background-color:#fff7e6;
 }
 
 html {
@@ -9,9 +10,10 @@ html {
 }
 
 #housecardholder {
+  position:static;
   background-color:#fff7e6;
-  margin-top: 0;
-  margin-bottom: 0;
+  margin-top: 0px;
+  margin-bottom: 0px;
   height: 100%;
 }
 
@@ -20,7 +22,7 @@ html {
   background: rgba(0, 0, 0, 0.7);
   color: white;
   padding: 5px 15px 0px 15px;
-  /* position: fixed; */
+  position: fixed;
   top: 0;
   left: 0;
   z-index: 999;
@@ -87,6 +89,11 @@ html {
   background: red;
 }
 
+#intro {
+  position: static;
+  background-color:#fff7e6;
+}
+
 @media (min-width: 744px) {
   .outer-holder {
     margin-top: 40px !important;
@@ -129,6 +136,7 @@ html {
   display: inline-block !important;
   vertical-align: top !important;
   white-space: normal !important;
+  background-color: white;
 }
 
 @media (min-width: 744px) {
@@ -162,6 +170,7 @@ html {
 
 .house-card-text {
   padding-top: 8px !important;
+  /* background-color:#fff7e6; */
 }
 
 .housecard-text-box {
@@ -191,6 +200,7 @@ html {
   color: rgb(72, 72, 72) !important;
   font-weight: 800 !important;
   margin: 0px !important;
+  /* background-color:#fff7e6; */
 }
 
 .outer-inner-house-card-info-text-price-box {
