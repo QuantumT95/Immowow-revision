@@ -7,6 +7,11 @@ html {
   width: 100%;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 #navbarstyle {
   width: 100%;
   background: rgba(0, 0, 0, 0.7);
@@ -38,6 +43,11 @@ html {
   padding-top: 0px;
   padding-bottom: 0px;
   margin-bottom: 0px;
+  background-image: url('../img/house1_1.jpg');
+  background-size: cover;
+  background-position: center center;
+  padding: 20px;
+  height: 683px;
 }
 
 #main-image-container {
