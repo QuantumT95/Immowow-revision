@@ -97,8 +97,11 @@ html {
   float: left;
   width: 36%;
   margin-left: 15%;
-  /*  margin-right: 15%;
-  */  position: relative;
+  /*  margin-right: 15%; */
+  position: relative;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px;
 }
 
 #d-right {
@@ -108,6 +111,9 @@ html {
   margin-right: 15%;
   position: relative;
   text-align: center;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px;
 }
 
 .default:hover {
