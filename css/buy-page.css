@@ -67,6 +67,8 @@ html {
   font-size: 5vw;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   -webkit-font-smoothing: antialiased;
+/*  text-shadow: horizontal-offset vertical-offset blur color;
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.3);*/
 }
 
 #ccSearchInput {
@@ -92,6 +94,7 @@ html {
 #intro {
   position: static;
   background-color:#fff7e6;
+
 }
 
 @media (min-width: 744px) {
@@ -171,6 +174,7 @@ html {
 .house-card-text {
   padding-top: 8px !important;
   /* background-color:#fff7e6; */
+  background-color: white;
 }
 
 .housecard-text-box {
@@ -201,6 +205,7 @@ html {
   font-weight: 800 !important;
   margin: 0px !important;
   /* background-color:#fff7e6; */
+  background-color: white;
 }
 
 .outer-inner-house-card-info-text-price-box {
@@ -280,7 +285,42 @@ html {
   height: 100%;
 }
 
-#houseimage {
-  background-image: url('../img/house1_0.jpg');
+#houseimage0 {
+  background-image: url('../img/01ModernShack.jpg');
+  background-size: contain;
+}
+
+#houseimage1 {
+  background-image: url('../img/02FamilyRoom.jpg');
+  background-size: contain;
+}
+
+#houseimage2 {
+  background-image: url('../img/03StandingShower.jpg');
+  background-size: contain;
+}
+
+#houseimage3 {
+  background-image: url('../img/04BachelorsCrib.jpg');
+  background-size: contain;
+}
+
+#houseimage4 {
+  background-image: url('../img/05RoomyShower.jpg');
+  background-size: contain;
+}
+
+#houseimage5 {
+  background-image: url('../img/06WhiteKitchen.jpg');
+  background-size: contain;
+}
+
+#houseimage6 {
+  background-image: url('../img/07LoadedShed.jpg');
+  background-size: contain;
+}
+
+#houseimage7 {
+  background-image: url('../img/09HomeyBar.jpg');
   background-size: contain;
 }
