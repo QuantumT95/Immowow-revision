@@ -61,9 +61,9 @@ $(document).ready(function(){
     database.ref().push(contactObj);
 
     // Checking
-    console.log(contactObj.name);
-    console.log(contactObj.email);
-    console.log(contactObj.phone);
+    // console.log(contactObj.name);
+    // console.log(contactObj.email);
+    // console.log(contactObj.phone);
     // console.log(contactObj.address);
     // console.log(contactObj.object);
     // console.log(contactObj.message);
