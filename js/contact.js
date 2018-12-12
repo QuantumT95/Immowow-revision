@@ -59,11 +59,11 @@ $(document).ready(function(){
 
     event.preventDefault();
     database.ref().push(contactObj);
-    console.log(contactObj);
+    // console.log(contactObj);
   });
-  // you can use the above or the one shown below
+
+  // Prevent the page from being reloaded
   $('#btnSubmit').click(function(e){
     e.preventDefault();
-    // your statements;
   });
 });
